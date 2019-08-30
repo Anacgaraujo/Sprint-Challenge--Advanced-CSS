@@ -1,1 +1,44 @@
 // Navigation code here
+
+nav{
+  background-color: @wild-sand;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: 10px solid @sea-shell;
+      @media @mobile{
+        width: 500px;
+        justify-content: space-between;
+      }
+    .title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+      @media @mobile {
+        font-size: 30px;
+      }
+    }
+
+  .ancors {
+    padding: 0 0 20px 0;
+      a{
+      text-decoration: none;
+      color: black;
+      margin-right: 10px;
+      @media @mobile {
+        font-size: 13px;
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+header{
+
+  img{
+    border-radius: 10px;
+    @media @mobile{
+      width: 500px;
+    }
+  }
+}

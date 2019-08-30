@@ -1,1 +1,28 @@
 // Mixins Here
+
+.subTitles(@justify, @align){
+  display: flex;
+	justify-content: @justify;
+	align-items: @align;
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  color: @ebony-clay;
+}
+
+.paragraphs {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: @shuttle-gray;
+}
+
+.button(@justify, @align, @width){
+  text-align: @justify;
+	align-items: @align;
+  width: @width;
+  background-color: @ebony-clay;
+  color: @shuttle-gray;
+  padding: 8px;
+  color: @wild-sand;
+  border-radius: 10px;
+}

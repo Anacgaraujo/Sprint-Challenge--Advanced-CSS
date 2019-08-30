@@ -3,9 +3,18 @@ footer {
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
-  border: 1px double #e0e0e0;
+  border: 1px double @waterloo;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+      @media @mobile {
+        width: 500px;
+      }
+    p{
+      padding: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12px;
+    }
 }
